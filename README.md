@@ -1,6 +1,4 @@
-# INACTIVE
 
-I'm currently focusing my efforts on [jupyterhub-ssh](https://github.com/yuvipanda/jupyterhub-ssh) instead. Feel free to fork and continue working on this :) <3
 
 # KubeSSH
 
