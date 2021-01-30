@@ -4,3 +4,4 @@ ptyprocess
 escapism
 traitlets
 ruamel.yaml
+python-ldap
