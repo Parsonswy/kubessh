@@ -54,6 +54,11 @@ c.KubeSSH.authenticator_class = LDAPAuthenticator
 c.KubeSSH.authenticator_class.ldap_servers = [ 'dc01.ncsa.tech', 'dc02.ncsa.tech' ]
 ```
 
+# Security Considerations
+Presently, KubeSSH is designed for use by already trusted, privledged users. This does not mean you need elevated access to use KubeSSH, it means that there are few built in security measures to mitigate DoS, privledge escalation, back-door access, or other attacks that come with granting effectivly root access to most cluster configurations.  Read up on [Kubernetes cluster security best practices](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/) to ensure awareness of all the risks posed by deploying KubeSSH. Maintains, past, present, and future are not responsible for any incidents incurred by using this software. As enumerated above, better security systems and documentation are a goal of this project, but unfortunantly they do not exist at this time.
+
+Pull requests or discussions regarding any vulnerabilities or security questions are welcome. There is no confidential reporting process at this time as this project is still in early development.
+
 # Legacy Documentation & Notes
 
 The below resources may still be useful for anyone looking into this project, but are not affiliated with this fork. These resources were published and maintained by the origianl project owner. Until we are able to port our own official docs over to this fork, we link these as a resource and will do a our best to indicate where changes invalidate them. These resources may also disappear at anytime and there is nothing we can do about that.
